@@ -1,0 +1,23 @@
+Problem Description:
+Write a program to count the total number of digits in a number.
+
+Input Description:
+First line consists of input number
+
+Output Description:
+Output consists of total number of digits in a number.
+
+Sample Input :
+345
+Sample Output :
+3
+
+Solution:
+
+def count_digits(number):
+    return len(str(number))
+
+input_number = int(input())
+
+output = count_digits(input_number)
+print(output)
