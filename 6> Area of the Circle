@@ -1,0 +1,11 @@
+Problem Description:
+
+Write a program to find the radius of a circle. If the input is zero and print the output “None” & If the output is float value round off upto 2 decimal places.
+
+Solution:
+radius = int(input())
+if radius == 0:
+    print("None")
+else:
+    area = 3.1415926535897932384626433832795 * radius**2
+    print(round(area, 2))
